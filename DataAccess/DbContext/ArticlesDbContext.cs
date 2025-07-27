@@ -28,6 +28,6 @@ namespace DataAccess.DbContext
 
         public DbSet<Articles> Articles { get; set; }
         public DbSet<Categories> Categories { get; set; }
-        public DbSet<ArticlesCategories> ArticalesCategories { get; set; }
+        public DbSet<ArticlesCategories> ArticlesCategories { get; set; }
     }
 }

@@ -14,10 +14,12 @@ namespace ArticlesBe.AddServicesCollection
             services.AddTransient(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddScoped<ICategoriesRepository, CategoriesRepository>();
             services.AddScoped<ISubCategoriesRepository, SubCategoriesRepository>();
+            services.AddScoped<IArticlesRepository, ArticlesRepository>();
 
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<CategoriesService>();
             services.AddScoped<SubCategoriesService>();
+            services.AddScoped<ArticlesService>();    
             services.AddHttpContextAccessor();
         }
     }

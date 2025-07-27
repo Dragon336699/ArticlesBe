@@ -15,5 +15,6 @@ namespace Domain.Entities
         public Guid Id { get; set; }
         public required string CategoryName { get; set; }
         public List<SubCategories>? SubCategories { get; set; }
+        public List<ArticlesCategories>? ArticlesCategories { get; set; }
     }
 }

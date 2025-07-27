@@ -6,6 +6,7 @@ namespace ArticlesBe.Interfaces
     {
         ICategoriesRepository Categories { get; }
         ISubCategoriesRepository SubCategories { get; }
+        IArticlesRepository Articles { get; }
         int Complete();
     }
 }

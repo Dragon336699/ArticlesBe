@@ -32,3 +32,4 @@ C:\Users\AD\OneDrive\Desktop\PTIT\Internship\ArticlesBe\DataAccess\obj\Debug\net
 C:\Users\AD\OneDrive\Desktop\PTIT\Internship\ArticlesBe\DataAccess\obj\Debug\net8.0\DataAccess.pdb
 C:\Users\AD\OneDrive\Desktop\PTIT\Internship\ArticlesBe\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
 C:\Users\AD\OneDrive\Desktop\PTIT\Internship\ArticlesBe\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+C:\Users\AD\OneDrive\Desktop\PTIT\Internship\ArticlesBe\DataAccess\obj\Debug\net8.0\DataAccess.sourcelink.json

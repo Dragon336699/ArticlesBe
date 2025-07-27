@@ -312,3 +312,5 @@ C:\Users\AD\OneDrive\Desktop\PTIT\Internship\ArticlesBe\ArticlesBe\obj\Debug\net
 C:\Users\AD\OneDrive\Desktop\PTIT\Internship\ArticlesBe\ArticlesBe\obj\Debug\net8.0\ArticlesBe.pdb
 C:\Users\AD\OneDrive\Desktop\PTIT\Internship\ArticlesBe\ArticlesBe\obj\Debug\net8.0\ArticlesBe.genruntimeconfig.cache
 C:\Users\AD\OneDrive\Desktop\PTIT\Internship\ArticlesBe\ArticlesBe\obj\Debug\net8.0\ref\ArticlesBe.dll
+C:\Users\AD\OneDrive\Desktop\PTIT\Internship\ArticlesBe\ArticlesBe\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\AD\OneDrive\Desktop\PTIT\Internship\ArticlesBe\ArticlesBe\obj\Debug\net8.0\ArticlesBe.sourcelink.json

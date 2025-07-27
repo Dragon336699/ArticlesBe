@@ -1,5 +1,15 @@
 [
   {
+    "ContainingType": "ArticlesBe.Controllers.ArticlesController",
+    "Method": "GetHighLightArticles",
+    "RelativePath": "api/v1/articles/highlight",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ArticlesBe.Controllers.CategoriesController",
     "Method": "GetAllCategories",
     "RelativePath": "api/v1/categories/getAll",

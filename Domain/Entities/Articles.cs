@@ -19,5 +19,6 @@ namespace Domain.Entities
         public DateTime UpdatedAt { get; set; } = DateTime.UtcNow;
         public required string Author { get; set; }
         public List <ArticleImages>? ArticleImages { get; set; } 
+        public List <ArticlesCategories>? ArticlesCategories { get; set; }
     }
 }

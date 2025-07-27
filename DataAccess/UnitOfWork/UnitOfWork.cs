@@ -15,6 +15,7 @@ namespace Domain.UnitOfWork
         private readonly ArticlesDbContext _context;
         public ICategoriesRepository Categories { get; private set; }
         public ISubCategoriesRepository SubCategories { get; private set; }
+        public IArticlesRepository Articles { get; private set; }
 
 
         public UnitOfWork(ArticlesDbContext context)
@@ -22,6 +23,7 @@ namespace Domain.UnitOfWork
             _context = context;
             Categories = new CategoriesRepository(_context);
             SubCategories = new SubCategoriesRepository(_context);
+            Articles = new ArticlesRepository(_context);
         }
 
         public int Complete()
