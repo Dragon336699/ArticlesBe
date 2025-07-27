@@ -10,6 +10,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ArticlesBe.Controllers.ArticlesController",
+    "Method": "GetHomeListArticles",
+    "RelativePath": "api/v1/articles/homeList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createdAt",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ArticlesBe.Controllers.CategoriesController",
     "Method": "GetAllCategories",
     "RelativePath": "api/v1/categories/getAll",

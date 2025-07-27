@@ -25,5 +25,18 @@ namespace ArticlesBe.Controllers
             return Ok(articles);
 
         }
+
+        [HttpGet]
+        [Route("articles/homeList")]
+        public async Task<IActionResult> GetHomeListArticles(DateTime? createdAt)
+        {
+            var articles = await _articlesService.GetHomeListArticles(createdAt);
+            if (articles == null || !articles.Any())
+            {
+                return NotFound("No list articles found.");
+            }
+            return Ok(articles);
+
+        }
     }
 }

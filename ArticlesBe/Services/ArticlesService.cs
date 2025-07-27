@@ -20,5 +20,11 @@ namespace ArticlesBe.Services
             return articles;
         }
 
+        public async Task<IEnumerable<ArticlesDto>> GetHomeListArticles(DateTime? createdAt)
+        {
+            var articles = await _articlesRepository.GetHomeListArticles(createdAt);
+            return articles;
+        }
+
     }
 }

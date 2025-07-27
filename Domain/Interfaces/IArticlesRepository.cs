@@ -12,6 +12,8 @@ namespace Domain.Interfaces
     public interface IArticlesRepository : IGenericRepository<Articles>
     {
         Task<IEnumerable<ArticlesDto>> GetHighLightArticles();
-        
+        Task<IEnumerable<ArticlesDto>> GetHomeListArticles(DateTime? createdAt);
+
+
     }
 }
